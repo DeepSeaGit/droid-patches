@@ -1,0 +1,1 @@
+This patch reads in an input clock with a simple swing running at 4 ppqn resolution (every second pulse has delay) and translates the swing into a 16 ppqn resolution. As the patch first listens to the input clock and learns the swung beat, after that the high resolution clock is immediately in sync when pressing the play button of your system.  
